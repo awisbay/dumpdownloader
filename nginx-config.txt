@@ -1,4 +1,4 @@
-# Add this to your existing nginx server block
+# Add this to your existing nginx server block for dump.wisbay.my.id
 # This configuration assumes your existing Streamlit is on a different path
 
 # API proxy for file manager
@@ -32,9 +32,26 @@ location /files/ {
 #     try_files $uri $uri/ /index.html;
 # }
 
-# Example of how your existing config might look:
-# Your existing Streamlit app
-# location /streamlit/ {
-#     proxy_pass http://localhost:8501;
-#     # ... your existing streamlit config
+# Example complete server block for dump.wisbay.my.id:
+# server {
+#     listen 80;
+#     server_name dump.wisbay.my.id;
+#
+#     # File Manager (root access)
+#     location / {
+#         root /var/www/file-manager;
+#         try_files $uri $uri/ /index.html;
+#     }
+#
+#     # API endpoints
+#     location /api/ {
+#         proxy_pass http://localhost:3001;
+#         # ... proxy settings above
+#     }
+#
+#     # Your existing Streamlit app (if on same domain)
+#     location /streamlit/ {
+#         proxy_pass http://localhost:8501;
+#         # ... your existing streamlit config
+#     }
 # }
