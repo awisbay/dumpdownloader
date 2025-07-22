@@ -16,10 +16,10 @@ app.use(express.json());
 
 // Configure your VPS file paths here
 const FILE_PATHS = {
-  'rbs-modump-sunset': '/Users/wisbay/Documents/Programming/projectdownloader/test-data/rbs-modump-sunset',
-  'rnc-modump-sunset': '/Users/wisbay/Documents/Programming/projectdownloader/test-data/rnc-modump-sunset',
-  'migration-modump': '/Users/wisbay/Documents/Programming/projectdownloader/test-data/migration-modump',
-  'allip-bsc': '/Users/wisbay/Documents/Programming/projectdownloader/test-data/allip-bsc'
+  'rbs-modump-sunset': '/home/ftpwisbay/log/rbsdump',
+  'rnc-modump-sunset': '/home/ftpwisbay/log/ModumpRNC',
+  'migration-modump': '/home/ftpwisbay/log/migration',
+  'allip-bsc': '/home/ftpwisbay/log/bscallip'
 };
 
 // Helper function to get file stats
