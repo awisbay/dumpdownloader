@@ -85,7 +85,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ selectedItem, onItemSelect }) 
       <div className="mb-6">
         <h2 className="text-xl font-bold text-white flex items-center">
           <Server className="h-6 w-6 mr-2 text-blue-500" />
-          VPS File Manager
+          IRS Dump Downloader
         </h2>
       </div>
       
