@@ -26,7 +26,8 @@ const sidebarItems: SidebarItem[] = [
       { id: 'allip-bsc', label: 'Allip BSC', icon: Server },
       { id: 'migration-modump', label: 'Migration Modump', icon: Server },
       { id: 'rnc-modump-sunset', label: 'RNC Modump Sunset', icon: Server },
-      { id: 'rbs-modump-sunset', label: 'RBS Modump Sunset', icon: Server }
+      { id: 'rbs-modump-sunset', label: 'RBS Modump Sunset', icon: Server },
+      { id: 'lte-to-utran', label: 'LTE to UTRAN', icon: Server }
     ]
   }
 ];

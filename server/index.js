@@ -19,7 +19,8 @@ const FILE_PATHS = {
   'rbs-modump-sunset': '/home/ftpwisbay/log/rbsdump',
   'rnc-modump-sunset': '/home/ftpwisbay/log/ModumpRNC',
   'migration-modump': '/home/ftpwisbay/log/migration',
-  'allip-bsc': '/home/ftpwisbay/log/bscallip'
+  'allip-bsc': '/home/ftpwisbay/log/bscallip',
+  'lte-to-utran': '/home/ftpwisbay/log/L2U'
 };
 
 // Helper function to get file stats
