@@ -91,7 +91,8 @@ function App() {
       'rbs-modump-sunset': 'RBS Modump Sunset',
       'rnc-modump-sunset': 'RNC Modump Sunset',
       'migration-modump': 'Migration Modump',
-      'allip-bsc': 'Allip BSC'
+      'allip-bsc': 'Allip BSC',
+      'lte-to-utran': 'LTE to UTRAN'
     };
     return titles[category] || 'File Manager';
   };
